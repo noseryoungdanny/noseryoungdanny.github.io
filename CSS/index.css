@@ -1,18 +1,43 @@
 body {
-  background-color: #e7c1c0;
+  background-color: #f3eae0;
 }
 #NAVbar {
   box-shadow: 1px 1px 1px 1px;
 }
+h1 {
+  font-size: 6em;
+  text-align: center;
+  margin: 0.5em;
+}
+h2 {
+  font-size: 3em;
+}
+p {
+  font-size: 1.3em;
+}
 .nav-link {
   color: rgb(0, 0, 0);
+  font: bold;
 }
 .nav-link:hover {
   color: gray;
+  font: bold;
 }
 .nav-link:active {
   color: gray;
 }
 .navbar-brand {
+  color: white;
+}
+#Carousel {
+  margin-top: 2em;
+}
+.card-body {
+  background-color: #f5dabc;
+}
+.card {
+  background-color: #A22522;
+}
+.card-header {
   color: white;
 }

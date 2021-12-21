@@ -25,15 +25,82 @@
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
-                </li>
               </ul>
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-dark" type="submit">Search</button>
-              </form>
             </div>
           </div>
         </nav>
-      </header>
+    </header>
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+          <div id="Carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#Carousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#Carousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+              <button type="button" data-bs-target="#Carousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <form action="communication.html" class="action">
+                  <input type="image" src="Images/Carousel/CarouselPicture1.jpg" class="d-block w-100" alt="Picture of yeast dumplings" href="#recipeweek">
+                </form>
+                <div class="carousel-caption d-none d-sm-block">
+                  <h2>Yeast Dumplings</h2>
+                  <p>filled with Nutella</p>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <form action="PcComponentsGPU.html" class="action">
+                  <input type="image" src="Images/Carousel/CarouselPicture2.jpg" class="d-block w-100" alt="Picture of cake" href="#">
+                </form>
+                <div class="carousel-caption d-none d-sm-block">
+                  <h2>Banana Cake</h2>
+                  <p>Yes</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <form action="PcComponentsOthers.html" class="action">
+                  <input type="image" src="Images/Carousel/CarouselPicture3.jpg" class="d-block w-100" alt="Picture of bread" href="#">
+                </form>
+                <div class="carousel-caption d-none d-sm-block">
+                  <h2>Turkish bread</h2>
+                  <p>Not from the turkish store next to us</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#BestsellerCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#BestsellerCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+    <h1>Recipe of the week</h1><br>
+    <h1>Yeast dumplings filled <br>with Nutella (Buchteln)</h1>
+    <div class="container">
+        <div class="card-body">
+        <div class="row" id="recipeweek">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2">
+            <h2>Step 1</h2>
+            <p>Let's go: To begin, heat 250 ml of milk with 75 g of butter in a small saucepan until the butter is completely melted. </p>
+            </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-4">
+            <div class="card" id="step1">
+                <div class="card-header">It should look like this:</div>
+                <img src="Images/Buchteln/PXL_20211221_082625431.jpg" alt="Picture of melted butter with milk">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+    </div>
 </body>
 </html>
