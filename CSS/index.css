@@ -1,8 +1,28 @@
 body {
-  background-color: #c7ac8e;
+  background-color: #FFFFFF;
 }
 #NAVbar {
   box-shadow: 1px 1px 1px 1px;
+}
+#indexStuff {
+  color: #FFFFFF;
+}
+#downloads {
+  color: #000000;
+  font-size: 3em;
+  text-align: center;
+}
+#Martini1 {
+  color: #000000;
+  font-size: 1.3em;
+  text-decoration: none;
+  margin: 0.3em;
+}
+#Martini2 {
+  color: #000000;
+  font-size: 1.3em;
+  text-decoration: none;
+  margin: 0.3em;
 }
 h1 {
   font-size: 6em;
@@ -15,9 +35,13 @@ h2 {
 p {
   font-size: 1.3em;
 }
+span {
+  color: #FFFFFF;
+}
 .nav-link {
   color: rgb(0, 0, 0);
   font: bold;
+  font-size: 1.4em;
 }
 .nav-link:hover {
   color: gray;
@@ -43,4 +67,7 @@ p {
 }
 .row {
   margin-top: 4em;
+}
+#footerS {
+  background-color: #C73E52;
 }
