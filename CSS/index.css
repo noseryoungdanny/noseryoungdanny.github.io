@@ -1,6 +1,12 @@
 body {
   background-color: #FFFFFF;
 }
+#Jamies {
+  position: fixed;
+  margin-top: 5em;
+  right: 0;
+  width: 10em;
+}
 #NAVbar {
   box-shadow: 1px 1px 1px 1px;
 }
